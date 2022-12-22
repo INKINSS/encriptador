@@ -1,0 +1,97 @@
+@font-face {
+    font-family:'Jua', sans-serif ;
+    src: url('https://fonts.googleapis.com/css2? family=Jua&display=swap');
+}
+
+/*GENERALIDADES */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER */
+
+header{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Jua", sans-serif;
+    font-size: 30px;
+    margin: 0 10px;
+    color: white;
+}
+
+#divButton{
+    width: 115px;
+}
+
+#button{
+    width: 100%;
+}
+
+/*MAIN CONTENT*/
+
+.general{
+    background-color: #28354B;
+}
+
+.main{
+    margin: auto;
+    width: 80%;
+}
+
+figure>img{
+    filter: invert();
+    width: 100%;
+}
+
+.main>h2{
+    font-family: "Jua", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.all{
+    margin-top: 50%;
+}
+
+@media (min-width: 768px){
+    h2{
+        text-align: center;
+    }
+
+    header>h1{
+        font-size: 50px;
+    }
+
+    header>figure{
+        width: 50px;
+        height: 50px;
+    }
+
+    .main>h2{
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1024px){
+    .all{
+        margin-top: 17%;
+    }
+
+    figure{
+        margin: 0;
+    }
+
+    .main>h2{
+        font-size: 30px;
+    }
+
+}
