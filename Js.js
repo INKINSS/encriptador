@@ -170,4 +170,3 @@ function changeImageDesencrypted() {
     }, 200);
 
 }
-// cambios con git
