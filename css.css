@@ -49,6 +49,10 @@ figure>img{
     width: 100%;
 }
 
+figure {
+    width: 30px;
+    height: 30px;
+}
 .main>h2{
     font-family: "Jua", sans-serif;
     font-size: 20px;
